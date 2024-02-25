@@ -1,12 +1,1 @@
-{
-  "version": 3,
-  "cacheFilesPaths": {
-    "src/_codux/boards/header.board.tsx": "src/_codux/boards/header.board.cache.json",
-    "src/_codux/boards/product-info.board.tsx": "src/_codux/boards/product-info.board.cache.json",
-    "src/_codux/boards/cart-empty.board.tsx": "src/_codux/boards/cart-empty.board.cache.json",
-    "src/_codux/boards/app.board.tsx": "src/_codux/boards/app.board.cache.json",
-    "src/_codux/boards/app-mobile.board.tsx": "src/_codux/boards/app-mobile.board.cache.json",
-    "src/_codux/boards/cart.board.tsx": "src/_codux/boards/cart.board.cache.json",
-    "src/_codux/boards/images.board.tsx": "src/_codux/boards/images.board.cache.json"
-  }
-}
+{"version":3,"cacheFilesPaths":{"src/_codux/boards/header.board.tsx":"src/_codux/boards/header.board.cache.json","src/_codux/boards/product-info.board.tsx":"src/_codux/boards/product-info.board.cache.json","src/_codux/boards/cart-empty.board.tsx":"src/_codux/boards/cart-empty.board.cache.json","src/_codux/boards/app.board.tsx":"src/_codux/boards/app.board.cache.json","src/_codux/boards/app-mobile.board.tsx":"src/_codux/boards/app-mobile.board.cache.json","src/_codux/boards/cart.board.tsx":"src/_codux/boards/cart.board.cache.json","src/_codux/boards/images.board.tsx":"src/_codux/boards/images.board.cache.json"}}
