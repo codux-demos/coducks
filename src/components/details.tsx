@@ -35,7 +35,7 @@ export function CartDetails({ cart }: { cart: Cart }) {
             href="/checkout"
             className="px-4 flex w-full justify-end"
           >
-            <button className="bg-yellow rounded py-2 px-4">Checkout</button>
+            <button className="bg-yellow rounded-sm py-2 px-4">Checkout</button>
           </NavigationMenu.Link>
         </>
       ) : (
@@ -53,14 +53,14 @@ export function UserDetails({ user }: { user?: User }) {
         <>
           <p className="pb-3">{user.name}</p>
           <NavigationMenu.Link href="/logout">
-            <button className="bg-yellow rounded py-2 px-[19px]">
+            <button className="bg-yellow rounded-sm py-2 px-[19px]">
               Log out
             </button>
           </NavigationMenu.Link>
         </>
       ) : (
         <NavigationMenu.Link href="/login">
-          <button className="bg-yellow rounded py-2 px-[19px]">Log in</button>
+          <button className="bg-yellow rounded-sm py-2 px-[19px]">Log in</button>
         </NavigationMenu.Link>
       )}
     </>

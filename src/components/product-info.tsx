@@ -24,7 +24,7 @@ export const ProductInfo = ({
       <div className="flex justify-between items-end">
         <SizeToggle sizes={product.sizes} onChange={(s) => setSize(s)} />
         <button
-          className="bg-black disabled:bg-gray-dark text-white px-5 py-2 rounded font-medium"
+          className="bg-black disabled:bg-gray-dark text-white px-5 py-2 rounded-sm font-medium"
           disabled={!size}
           onClick={() => addToCart(item)}
         >
@@ -51,11 +51,11 @@ export const SizeToggle = ({
         type="single"
         aria-label="Product size"
         onValueChange={onChange}
-        className="w-full grid grid-flow-col bg-gray-light rounded"
+        className="w-full grid grid-flow-col bg-gray-light rounded-sm"
       >
         {sizes.map((size, i) => (
           <ToggleGroup.Item
-            className="bg-gray-light data-[state=on]:bg-yellow px-5 py-2 rounded cursor-pointer"
+            className="bg-gray-light data-[state=on]:bg-yellow px-5 py-2 rounded-sm cursor-pointer"
             key={i}
             value={size}
             title={`Size ${size}`}

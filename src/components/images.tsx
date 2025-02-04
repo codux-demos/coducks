@@ -36,7 +36,7 @@ export const Images = ({ images }: { images: Image[] }) => {
         {images.map(({ url, title, alt }, i) => (
           <AspectRatio.Root
             className={
-              "h-full border-4 rounded p-1 " +
+              "h-full border-4 rounded-sm p-1 " +
               (i === activeIndex ? "border-yellow" : "border-white")
             }
             key={i}
